@@ -1,0 +1,9 @@
+Circuit to detect the size of carton for product line using Ultrasonic sensor
+
+Use one ultrasonic sensor to classification the carton to large, medium, and small according to that, the servo motor will control it.
+
+the sensor will be at the top of the line, the range of program 300-0 cm, where:
+- 300 to 200cm  for small cartons and the servo motor will rotate to an angle of 135 degrees.
+- 199 to 100cm to medium cartons and the servo motor will rotate to an angle of 90 degrees.
+- 99 to 0cm for large cartons and the servo motor will rotate to an angle of 45 degrees.
+where the sensor is on the top which means when its reading distance higher the size of the carton smaller.
